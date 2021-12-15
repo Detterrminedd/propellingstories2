@@ -167,5 +167,37 @@ img {
     padding-bottom: 2em;
     border-bottom: 1px solid red;
   }
+  .images1 {
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+  }
+  .images2 {
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+  }
+  .images3 {
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+  }
+  .images4 {
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+  }
+  .images5 {
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+  }
+  .images6 {
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+  }
+  .images7 {
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+  }
+  .images8 {
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+  }
 }
 /*# sourceMappingURL=stylesheet.css.map */
