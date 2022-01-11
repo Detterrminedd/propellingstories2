@@ -22,7 +22,7 @@ img {
   opacity: 0;
   transform: translate3d(-1rem, 0, 0);
   transition: opacity 1.5s ease-in, transform 2s ease-in;
-  transition-delay: 1s; 
+  transition-delay: 1s;
 }
 
 .images2 {
@@ -31,6 +31,7 @@ img {
   transition: opacity 1.5s ease-in, transform 2s ease-in;
   transition-delay: 2s;
 }
+
 .images3 {
   opacity: 0;
   transform: translate3d(-1rem, 0, 0);
@@ -42,7 +43,7 @@ img {
   opacity: 0;
   transform: translate3d(-1rem, 0, 0);
   transition: opacity 1.5s ease-in, transform 2s ease-in;
-  transition-delay: 1s; 
+  transition-delay: 1s;
 }
 
 .images5 {
@@ -51,16 +52,19 @@ img {
   transition: opacity 1.5s ease-in, transform 2s ease-in;
   transition-delay: 2s;
 }
+
 .images6 {
   opacity: 0;
   transform: translate3d(-1rem, 0, 0);
   transition: opacity 1.5s ease-in, transform 2s ease-in;
   transition-delay: 3s;
-}.images7 {
+}
+
+.images7 {
   opacity: 0;
   transform: translate3d(-1rem, 0, 0);
   transition: opacity 1.5s ease-in, transform 2s ease-in;
-  transition-delay: 1s; 
+  transition-delay: 1s;
 }
 
 .images8 {
@@ -69,7 +73,6 @@ img {
   transition: opacity 1.5s ease-in, transform 2s ease-in;
   transition-delay: 2s;
 }
-
 
 .active {
   opacity: 1;
@@ -83,16 +86,14 @@ img {
   gap: 2em;
   align-items: end;
   justify-items: end;
-  // height: 100vh;
   place-items: center center;
 }
 
 @media (max-width: 1024px) {
   .page1 {
     display: grid;
-    gap: 2em; 
+    gap: 2em;
     grid-template-columns: repeat(2, 1fr);
-    // height: 100vh;
     place-items: center center;
   }
   img {
@@ -107,38 +108,41 @@ img {
     display: grid;
     gap: 2em;
     grid-template-columns: 1fr;
-    // height: 100vh;
     place-items: center center;
   }
   img {
     width: 95%;
     height: auto;
     margin-left: 0.4em;
-    // padding-bottom: 2em;
     border-bottom: 1px solid red;
   }
   .images1 {
-    transition-delay: 1s; 
-  }.images2 {
     transition-delay: 1s;
-  }.images3 {
+  }
+  .images2 {
     transition-delay: 1s;
-  }.images4 {
-    transition-delay: 1s; 
-  }.images5 {
+  }
+  .images3 {
     transition-delay: 1s;
-  }.images6 {
+  }
+  .images4 {
     transition-delay: 1s;
-  }.images7 {
-    transition-delay: 1s; 
-  }.images8 {
+  }
+  .images5 {
+    transition-delay: 1s;
+  }
+  .images6 {
+    transition-delay: 1s;
+  }
+  .images7 {
+    transition-delay: 1s;
+  }
+  .images8 {
     transition-delay: 1s;
   }
 }
 
-// footer
-
-.shabeer
-{
+.shabeer {
   background-color: red;
 }
+/*# sourceMappingURL=stylesheet.css.map */
